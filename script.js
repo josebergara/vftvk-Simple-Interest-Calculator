@@ -8,8 +8,7 @@ function compute() {
   
     //Crear texto final
     if (principal <= 0) {
-      document.getElementById("result").innerHTML =
-        "Please, enter a positive Number.";
+      alert("Please, enter a positive Number.");
     } else {
       document.getElementById("result").innerHTML =
         "If you deposit " +
